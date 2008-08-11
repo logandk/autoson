@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02489C630DF8752300616EE0 /* autoson_error.icns in Resources */ = {isa = PBXBuildFile; fileRef = 02489C620DF8752300616EE0 /* autoson_error.icns */; };
+		0252E3820DFE93A300FCB89B /* show_log.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0252E3810DFE939700FCB89B /* show_log.scpt */; };
+		026A826E0DDB416F00A11AAE /* autoson.icns in Resources */ = {isa = PBXBuildFile; fileRef = 026A826D0DDB416F00A11AAE /* autoson.icns */; };
+		029393F20DF2010500433CD7 /* run_unison.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 029393EE0DF2009E00433CD7 /* run_unison.scpt */; };
+		029393F90DF2027200433CD7 /* show_profile.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 029393F80DF2026C00433CD7 /* show_profile.scpt */; };
+		0293946D0DF2187100433CD7 /* show_documentation.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0293946B0DF2186100433CD7 /* show_documentation.scpt */; };
+		029394B20DF21F1E00433CD7 /* login_item_remove.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 0293948F0DF21CEE00433CD7 /* login_item_remove.scpt */; };
+		02A5B1E10DE382D3005CD6E8 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A5B1E00DE382D3005CD6E8 /* PreferencesController.m */; };
+		02BFA9850DF84179007BC161 /* AppleScriptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BFA9840DF84179007BC161 /* AppleScriptController.m */; };
+		02BFAA1C0DF84E40007BC161 /* SyncController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BFAA1B0DF84E40007BC161 /* SyncController.m */; };
+		02D636A00DDDA7200036375C /* autoson_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D6369F0DDDA7200036375C /* autoson_inactive.png */; };
+		02D636A30DDDA7420036375C /* autoson_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D636A20DDDA7420036375C /* autoson_active.png */; };
+		02DC3F290DD0FD700083677D /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DC3F280DD0FD700083677D /* AppController.m */; };
+		02DC3F9D0DD112FF0083677D /* synchronize.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 02DC3F5F0DD10BA30083677D /* synchronize.scpt */; };
+		02F9B3030DE350B400D9D1FB /* IntegerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F9B3020DE350B400D9D1FB /* IntegerFormatter.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02489C620DF8752300616EE0 /* autoson_error.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = autoson_error.icns; sourceTree = "<group>"; };
+		0252E3810DFE939700FCB89B /* show_log.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = show_log.scpt; sourceTree = "<group>"; };
+		026A826D0DDB416F00A11AAE /* autoson.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = autoson.icns; sourceTree = "<group>"; };
+		029393EE0DF2009E00433CD7 /* run_unison.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = run_unison.scpt; sourceTree = "<group>"; };
+		029393F80DF2026C00433CD7 /* show_profile.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = show_profile.scpt; sourceTree = "<group>"; };
+		0293946B0DF2186100433CD7 /* show_documentation.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = show_documentation.scpt; sourceTree = "<group>"; };
+		0293948F0DF21CEE00433CD7 /* login_item_remove.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = login_item_remove.scpt; sourceTree = "<group>"; };
+		02A5B1DF0DE382D3005CD6E8 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		02A5B1E00DE382D3005CD6E8 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		02BFA9830DF84179007BC161 /* AppleScriptController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleScriptController.h; sourceTree = "<group>"; };
+		02BFA9840DF84179007BC161 /* AppleScriptController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleScriptController.m; sourceTree = "<group>"; };
+		02BFAA1A0DF84E40007BC161 /* SyncController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncController.h; sourceTree = "<group>"; };
+		02BFAA1B0DF84E40007BC161 /* SyncController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncController.m; sourceTree = "<group>"; };
+		02D6369F0DDDA7200036375C /* autoson_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoson_inactive.png; sourceTree = "<group>"; };
+		02D636A20DDDA7420036375C /* autoson_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoson_active.png; sourceTree = "<group>"; };
+		02DC3F270DD0FD700083677D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		02DC3F280DD0FD700083677D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		02DC3F5F0DD10BA30083677D /* synchronize.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = synchronize.scpt; sourceTree = "<group>"; };
+		02F9B3010DE350B400D9D1FB /* IntegerFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerFormatter.h; sourceTree = "<group>"; };
+		02F9B3020DE350B400D9D1FB /* IntegerFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerFormatter.m; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Autoson_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Autoson_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Autoson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autoson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02DC3F270DD0FD700083677D /* AppController.h */,
+				02DC3F280DD0FD700083677D /* AppController.m */,
+				02A5B1DF0DE382D3005CD6E8 /* PreferencesController.h */,
+				02A5B1E00DE382D3005CD6E8 /* PreferencesController.m */,
+				02F9B3010DE350B400D9D1FB /* IntegerFormatter.h */,
+				02F9B3020DE350B400D9D1FB /* IntegerFormatter.m */,
+				02BFA9830DF84179007BC161 /* AppleScriptController.h */,
+				02BFA9840DF84179007BC161 /* AppleScriptController.m */,
+				02BFAA1A0DF84E40007BC161 /* SyncController.h */,
+				02BFAA1B0DF84E40007BC161 /* SyncController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Autoson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Autoson */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Autoson;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Autoson_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				026A826D0DDB416F00A11AAE /* autoson.icns */,
+				02489C620DF8752300616EE0 /* autoson_error.icns */,
+				02D6369F0DDDA7200036375C /* autoson_inactive.png */,
+				02D636A20DDDA7420036375C /* autoson_active.png */,
+				02DC3F5F0DD10BA30083677D /* synchronize.scpt */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				029393EE0DF2009E00433CD7 /* run_unison.scpt */,
+				029393F80DF2026C00433CD7 /* show_profile.scpt */,
+				0293946B0DF2186100433CD7 /* show_documentation.scpt */,
+				0252E3810DFE939700FCB89B /* show_log.scpt */,
+				0293948F0DF21CEE00433CD7 /* login_item_remove.scpt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Autoson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Autoson" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autoson;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Autoson;
+			productReference = 8D1107320486CEB800E47090 /* Autoson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Autoson" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Autoson */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Autoson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC3F9D0DD112FF0083677D /* synchronize.scpt in Resources */,
+				0252E3820DFE93A300FCB89B /* show_log.scpt in Resources */,
+				029393F90DF2027200433CD7 /* show_profile.scpt in Resources */,
+				0293946D0DF2187100433CD7 /* show_documentation.scpt in Resources */,
+				029394B20DF21F1E00433CD7 /* login_item_remove.scpt in Resources */,
+				029393F20DF2010500433CD7 /* run_unison.scpt in Resources */,
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				026A826E0DDB416F00A11AAE /* autoson.icns in Resources */,
+				02D636A00DDDA7200036375C /* autoson_inactive.png in Resources */,
+				02D636A30DDDA7420036375C /* autoson_active.png in Resources */,
+				02489C630DF8752300616EE0 /* autoson_error.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				02DC3F290DD0FD700083677D /* AppController.m in Sources */,
+				02F9B3030DE350B400D9D1FB /* IntegerFormatter.m in Sources */,
+				02A5B1E10DE382D3005CD6E8 /* PreferencesController.m in Sources */,
+				02BFA9850DF84179007BC161 /* AppleScriptController.m in Sources */,
+				02BFAA1C0DF84E40007BC161 /* SyncController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Autoson_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Autoson;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Autoson_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Autoson;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Autoson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Autoson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
